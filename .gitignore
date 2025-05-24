@@ -1,0 +1,9 @@
+# ROS 2 devel y builds
+build/
+install/
+log/
+
+# Archivos temporales o caches
+*.pyc
+__pycache__/
+*.swp
