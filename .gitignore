@@ -1,9 +1,20 @@
-# ROS 2 devel y builds
+# Ignorar carpetas de compilación e instalación de ROS 2
 build/
 install/
 log/
 
-# Archivos temporales o caches
+# Ignorar archivos temporales u ocultos de editores
+*.swp
+*.swo
+*.bak
+.vscode/
+.idea/
 *.pyc
 __pycache__/
-*.swp
+
+# Ignorar artefactos propios de otros paquetes (si los hubiera)
+*.o
+*.obj
+
+# Opcional: si tienes dependencias descargadas u otros SDKs
+Livox-SDK2/
